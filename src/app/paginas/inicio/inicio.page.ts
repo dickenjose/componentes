@@ -36,6 +36,46 @@ export class InicioPage implements OnInit {
       nombre:'Botones',
       direccion:'/buttons',
     },
+    {
+      icono: 'accessibility-outline',
+      nombre:'Avatar',
+      direccion:'/avatar',
+    },
+    {
+      icono: 'attach-outline',
+      nombre:'Cards',
+      direccion:'/cards',
+    },
+    {
+      icono: 'bag-remove-outline',
+      nombre:'Check',
+      direccion:'/check',
+    },
+    {
+      icono: 'calculator-outline',
+      nombre:'Grid',
+      direccion:'/grid',
+    },
+    {
+      icono: 'arrow-redo-outline',
+      nombre:'Input',
+      direccion:'/input',
+    },
+    {
+      icono: 'infinite-outline',
+      nombre:'Infinite Scroll',
+      direccion:'/scroll',
+    },
+    {
+      icono: 'heart-outline',
+      nombre:'Listas',
+      direccion:'/listas',
+    },
+    {
+      icono: 'trash-outline',
+      nombre:'Listas Reordenadas',
+      direccion:'/list-reorder',
+    }
    
   ]
   constructor() { }

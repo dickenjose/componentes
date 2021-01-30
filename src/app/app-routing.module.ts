@@ -32,6 +32,42 @@ const routes: Routes = [
     path: 'buttons',
     loadChildren: () => import('./paginas/buttons/buttons.module').then( m => m.ButtonsPageModule)
   },
+  {
+    path: 'avatar',
+    loadChildren: () => import('./paginas/avatar/avatar.module').then( m => m.AvatarPageModule)
+  },
+  {
+    path: 'cards',
+    loadChildren: () => import('./paginas/cards/cards.module').then( m => m.CardsPageModule)
+  },
+  {
+    path: 'check',
+    loadChildren: () => import('./paginas/check/check.module').then( m => m.CheckPageModule)
+  },
+  {
+    path: 'grid',
+    loadChildren: () => import('./paginas/grid/grid.module').then( m => m.GridPageModule)
+  },
+  {
+    path: 'input',
+    loadChildren: () => import('./paginas/input/input.module').then( m => m.InputPageModule)
+  },
+  {
+    path: 'scroll',
+    loadChildren: () => import('./paginas/scroll/scroll.module').then( m => m.ScrollPageModule)
+  },
+  {
+    path: 'slide',
+    loadChildren: () => import('./paginas/slide/slide.module').then( m => m.SlidePageModule)
+  },
+  {
+    path: 'listas',
+    loadChildren: () => import('./paginas/listas/listas.module').then( m => m.ListasPageModule)
+  },
+  {
+    path: 'list-reorder',
+    loadChildren: () => import('./paginas/list-reorder/list-reorder.module').then( m => m.ListReorderPageModule)
+  },
   
 ];
 

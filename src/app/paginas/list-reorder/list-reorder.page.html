@@ -1,0 +1,15 @@
+<app-header titulo="listas reordenadas"></app-header>
+<ion-content>
+    
+    <ion-list>
+        <ion-reorder-group disabled="false"
+                           (ionItemReorder)="doReorder($event)" >
+            <ion-item *ngFor="let usuario of usuarios">
+                <ion-label>{{usuario}}</ion-label>
+                <ion-reorder slot="end"></ion-reorder>
+            </ion-item>
+        </ion-reorder-group>
+    </ion-list>
+        
+    
+</ion-content>
